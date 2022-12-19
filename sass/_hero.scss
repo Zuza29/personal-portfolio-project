@@ -1,0 +1,40 @@
+.hero {
+  position: relative;
+  z-index: 1000;
+  background: hsla(238, 100%, 71%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(238, 100%, 71%, 1) 0%,
+    hsla(295, 100%, 84%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(238, 100%, 71%, 1) 0%,
+    hsla(295, 100%, 84%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(238, 100%, 71%, 1) 0%,
+    hsla(295, 100%, 84%, 1) 100%
+  );
+
+    
+  width: 80%;
+  height: 60vh;
+  margin: 10%; 
+  border-radius: 15px;
+  animation: slide-up 2s ease-in-out;
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(100vh);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+

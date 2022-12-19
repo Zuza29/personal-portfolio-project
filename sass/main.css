@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(30deg, 100%, 83%);
+  position: relative;
+}
+
+.blob {
+  position: absolute;
+  width: 50vh;
+  height: 50vh;
+  animation: fadein;
+  animation-duration: 3s;
+  animation-delay: 3s;
+}
+
+.b-0 {
+  top: -5vh;
+  left: -5vh;
+}
+
+.b-1 {
+  bottom: -4vh;
+  left: 0;
+}
+
+.b-2 {
+  right: 0;
+  bottom: 0;
+}
+
+.b-3 {
+  left: 77vh;
+  top: -5vh;
+}
+
+.b-4 {
+  top: -4vh;
+  left: 26vh;
+  z-index: 1000;
+}
+
+.b-5 {
+  top: 1vh;
+  z-index: 1000;
+  right: -14vh;
+}
+
+.b-6 {
+  top: -3vh;
+  left: 53vh;
+}
+
+.b-7 {
+  bottom: 1vh;
+  right: 55vh;
+}
+
+.b-8 {
+  bottom: 16vh;
+  right: -13vh;
+}
+
+.b-9 {
+  bottom: -7vh;
+  right: 36vh;
+}
+
+.b-10 {
+  bottom: -3vh;
+  left: 40vh;
+}
+
+.b-11 {
+  bottom: 19vh;
+  left: -6vh;
+}
+
+.b-12 {
+  top: -7vh;
+  right: 13vh;
+}
+
+.hero {
+  position: relative;
+  z-index: 1000;
+  background: hsl(238deg, 100%, 71%);
+  background: linear-gradient(90deg, hsl(238deg, 100%, 71%) 0%, hsl(295deg, 100%, 84%) 100%);
+  background: -moz-linear-gradient(90deg, hsl(238deg, 100%, 71%) 0%, hsl(295deg, 100%, 84%) 100%);
+  background: -webkit-linear-gradient(90deg, hsl(238deg, 100%, 71%) 0%, hsl(295deg, 100%, 84%) 100%);
+  width: 80%;
+  height: 60vh;
+  margin: 10%;
+  border-radius: 15px;
+  animation: slide-up 2s ease-in-out;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(100vh);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=main.css.map */
