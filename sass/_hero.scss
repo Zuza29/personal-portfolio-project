@@ -21,20 +21,23 @@
     hsla(295, 100%, 84%, 1) 100%
   );
 
-    
   width: 80%;
   height: 60vh;
-  margin: 10%; 
+  margin: 10%;
   border-radius: 15px;
   animation: slide-up 2s ease-in-out;
 }
 
-@keyframes slide-up {
-    0% {
-        transform: translateY(100vh);
-    }
-    100% {
-        transform: translateY(0);
-    }
+a {
+  text-decoration: none;
+  color: black;
+  &:hover {
+    color: hsla(295, 100%, 84%, 1);
+  }
+  &:active {
+    color: hsla(238, 100%, 71%, 1);
+  }
+  &:visited {
+    color: rgb(43, 1, 47);
+  }
 }
-

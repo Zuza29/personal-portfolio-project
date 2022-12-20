@@ -1,0 +1,29 @@
+header {
+  z-index: 9000;
+  position: absolute;
+  justify-self: center;
+  top: 8vh;
+  text-align: center;
+  & h1 {
+    font-family: "Passions Conflict", serif;
+    font-weight: 100;
+    letter-spacing: 6px;
+    font-size: 8rem;
+    animation: unfold 3s;
+  }
+}
+
+h2 {
+  text-transform: lowercase;
+  font-family: "Roboto Mono", sans-serif;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end) forwards;
+}
+
+.portfolio {
+  margin-top: 7vh;
+  animation: typing 3.5s steps(40, end) forwards 4s, unfold 1s;
+}
