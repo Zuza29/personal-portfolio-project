@@ -156,9 +156,21 @@ h2 {
   position: relative;
   z-index: 1000;
   background: hsl(238deg, 100%, 71%);
-  background: linear-gradient(90deg, hsl(238deg, 100%, 71%) 0%, hsl(295deg, 100%, 84%) 100%);
-  background: -moz-linear-gradient(90deg, hsl(238deg, 100%, 71%) 0%, hsl(295deg, 100%, 84%) 100%);
-  background: -webkit-linear-gradient(90deg, hsl(238deg, 100%, 71%) 0%, hsl(295deg, 100%, 84%) 100%);
+  background: linear-gradient(
+    90deg,
+    hsl(238deg, 100%, 71%) 0%,
+    hsl(295deg, 100%, 84%) 100%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    hsl(238deg, 100%, 71%) 0%,
+    hsl(295deg, 100%, 84%) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    hsl(238deg, 100%, 71%) 0%,
+    hsl(295deg, 100%, 84%) 100%
+  );
   width: 80%;
   height: 60vh;
   margin: 10%;
@@ -203,4 +215,50 @@ a:hover {
 }
 a:active {
   color: hsl(238deg, 100%, 71%);
-}/*# sourceMappingURL=main.css.map */
+}
+
+@media only screen and (max-width: 850px) {
+  .hero {
+    height: 90%;
+  }
+  ol {
+    padding-top: 20%;
+  }
+  header h1 {
+    font-size: 5rem;
+    margin-top: 10%;
+  }
+  header h2 {
+    margin-top: 40px;
+  }
+  header h2,
+  .portfolio {
+    font-size: 1.5rem;
+  }
+  .portfolio {
+    margin-top: 5%;
+  }
+  ol {
+    padding-left: 15px;
+  }
+}
+@media only screen and (max-width: 585px) {
+  ol {
+    padding-top: 35%;
+  }
+}
+@media only screen and (max-width: 310px) {
+  header h1 {
+    font-size: 3rem;
+  }
+  header h2,
+  .portfolio {
+    font-size: 1rem;
+  }
+  ol {
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    columns: 1;
+  }
+} /*# sourceMappingURL=main.css.map */

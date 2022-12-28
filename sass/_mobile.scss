@@ -1,0 +1,51 @@
+@media only screen and (max-width: 850px) {
+  .hero {
+    height: 90%;
+  }
+
+  ol {
+    padding-top: 20%;
+  }
+  header h1 {
+    font-size: 5rem;
+    margin-top: 10%;
+  }
+
+  header h2 {
+    margin-top: 40px;
+  }
+  header h2,
+  .portfolio {
+    font-size: 1.5rem;
+  }
+  .portfolio {
+    margin-top: 5%;
+  }
+  ol {
+    padding-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 585px) {
+  ol {
+    padding-top: 35%;
+  }
+}
+
+@media only screen and (max-width: 310px) {
+  header h1 {
+    font-size: 3rem;
+  }
+
+  header h2,
+  .portfolio {
+    font-size: 1rem;
+  }
+
+  ol {
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    columns: 1;
+  }
+}
