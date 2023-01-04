@@ -1,2 +1,2 @@
-## This is my personal landing page
--a project made for fun.
+## This is my personal landing page -
+a project made for fun.
